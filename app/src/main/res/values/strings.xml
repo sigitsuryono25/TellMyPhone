@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tell My Phone</string>
+    <string name="descriptions">Tell My Phone adalah sebuah aplikasi berbasis sms command. Tell My Phone adalah alternative dari Find My Device miliki Google.
+        Find My Device membutuhkan koneksi internet dalam penggunaannya. Tell My Phone tidak membutuhkan hal tersebut.\nPerintah yang dapat digunakan antaran lain
+    </string>
+    <string name="ring">Req Ringing : Akan menderingkan perangkat anda walaupun dalam mode diam/getar.</string>
+    <string name="loc">Req Loc : akan mengirimkan lokasi terkini lokasi perangkat anda</string>
+    <string name="berikan_izin_tell_my_phone">Berikan Izin Tell My Phone</string>
+</resources>
