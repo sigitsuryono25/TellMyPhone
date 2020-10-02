@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "316370880681",
+    "firebase_url": "https://androidid-2897c.firebaseio.com",
+    "project_id": "androidid-2897c",
+    "storage_bucket": "androidid-2897c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316370880681:android:c0b26e0e331495f83801b8",
+        "android_client_info": {
+          "package_name": "com.auto.surelabs.tell.myphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316370880681-3qjviu8lea9vgooj6vqfrb4bf7cn9fob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkaFzcDsjdmI7lNiD3UyMAXv6EniLevDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316370880681-s4mutit906bv6mlbon2v9ko5uavovkum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316370880681:android:07211d3deb2e982b",
+        "android_client_info": {
+          "package_name": "com.lauwba.surelabs.androidid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316370880681-n364d61damiklca42c3k9mhleeaak2pm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lauwba.surelabs.androidid",
+            "certificate_hash": "c2a583f4db98d587e420106ab5e284a320e14968"
+          }
+        },
+        {
+          "client_id": "316370880681-3qjviu8lea9vgooj6vqfrb4bf7cn9fob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkaFzcDsjdmI7lNiD3UyMAXv6EniLevDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316370880681-s4mutit906bv6mlbon2v9ko5uavovkum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316370880681:android:db99a8180654199b3801b8",
+        "android_client_info": {
+          "package_name": "com.lauwba.surelabs.demokotllin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316370880681-ui09mesobc0a78vep11a4l871qe03p9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lauwba.surelabs.demokotllin",
+            "certificate_hash": "1bd10a34ead2f8f5bd9dd377e47971e52ccfe169"
+          }
+        },
+        {
+          "client_id": "316370880681-3qjviu8lea9vgooj6vqfrb4bf7cn9fob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkaFzcDsjdmI7lNiD3UyMAXv6EniLevDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316370880681-s4mutit906bv6mlbon2v9ko5uavovkum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

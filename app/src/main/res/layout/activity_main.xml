@@ -75,6 +75,24 @@
             android:padding="8dp"
             android:text="Lokasi" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor Telpon Aktif" />
+
+        <EditText
+            android:id="@+id/telponAktif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/simpanNomorTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:text="Simpan Nomor Telepon" />
 
         <TextView
             android:id="@+id/version"

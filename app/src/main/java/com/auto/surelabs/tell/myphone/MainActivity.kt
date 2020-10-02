@@ -1,5 +1,6 @@
 package com.auto.surelabs.tell.myphone
 
+import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,11 +8,12 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
-
+    val SHAREDPREFSNAME = MainActivity::class.java.`package`.toString()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val pref = getSharedPreferences(SHAREDPREFSNAME, Context.MODE_PRIVATE)
         version.text = BuildConfig.VERSION_NAME
 
 
@@ -25,6 +27,20 @@ class MainActivity : AppCompatActivity() {
 
         location.setOnClickListener {
             requestPermissions(arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), 2)
+        }
+
+        simpanNomorTelepon.setOnClickListener {
+            if (telponAktif.text.toString().isNotEmpty()) {
+                pref.edit()
+                    .putString("no_tel", telponAktif.text.toString())
+                    .apply()
+            } else {
+                telponAktif.error = "Silahkan isi nomor telpon terlebih dahulu"
+            }
+        }
+
+        if (pref.contains("no_tel")) {
+            telponAktif.setText(pref.getString("no_tel", ""))
         }
 
         val smsPermission = checkSelfPermission(android.Manifest.permission.RECEIVE_SMS)
